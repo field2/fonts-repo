@@ -1,7 +1,4 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
-axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - Isometra.glyphs
+familyName: Isometra
+outputDir: "../fonts"
