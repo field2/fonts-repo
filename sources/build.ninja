@@ -1,0 +1,6 @@
+# copy: Copy a file
+rule copy
+  command = /Users/ben/Documents/GitHub/isometra/venv/bin/python3.12 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
