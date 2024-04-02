@@ -6,14 +6,24 @@ DisplayStrings = (
 "ruffly loaf of bread",
 brown,
 aej,
-flow,
+"%#",
 "6869",
 e,
 "/e.001",
 "Sffl ",
 l,
 "/f_f_l",
-"ﬂ"
+"ﬂ",
+"//",
+"%",
+"."
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+}
 );
 date = "2023-02-20 13:41:47 +0000";
 familyName = Isometra;
@@ -56,13 +66,13 @@ over = -16;
 },
 {
 over = -16;
-pos = -200;
+pos = -210;
 },
 {
 over = -16;
 }
 );
-name = isometra;
+name = Isometra;
 }
 );
 glyphs = (
@@ -4154,6 +4164,62 @@ width = 825;
 unicode = 36;
 },
 {
+glyphname = percent;
+lastChange = "2024-04-02 02:04:57 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(499,689,l),
+(55,0,l),
+(323,0,l),
+(767,689,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(199,462,o),
+(251,514,o),
+(251,578,cs),
+(251,641,o),
+(199,693,o),
+(135,693,cs),
+(72,693,o),
+(20,641,o),
+(20,578,cs),
+(20,514,o),
+(72,462,o),
+(135,462,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(754,0,o),
+(806,52,o),
+(806,116,c),
+(806,179,o),
+(754,231,o),
+(690,231,cs),
+(627,231,o),
+(575,179,o),
+(575,116,cs),
+(575,52,o),
+(627,0,o),
+(690,0,c)
+);
+}
+);
+width = 848;
+}
+);
+unicode = 37;
+},
+{
 glyphname = newGlyph;
 lastChange = "2023-03-06 16:14:15 +0000";
 layers = (
@@ -4197,6 +4263,14 @@ nodes = (
 width = 771;
 }
 );
+}
+);
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
 }
 );
 kerningLTR = {
@@ -4484,7 +4558,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "2023";
+value = "Copyright 2023 The Isometra Project Authors (https://github.com/field2/isometra)";
 }
 );
 },
@@ -4496,9 +4570,27 @@ language = dflt;
 value = "https://openfontlicense.org/documents/OFL.txt";
 }
 );
+},
+{
+key = compatibleFullNames;
+values = (
+{
+language = dflt;
+value = "Isometra Regular";
+}
+);
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Isometra;
+}
+);
 }
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
