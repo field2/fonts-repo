@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3258";
 .formatVersion = 3;
 DisplayStrings = (
 "THE eE UICK BROWN FOX JUMPS OVER THE LAZY DOG"
@@ -7581,6 +7581,14 @@ m01 = 1;
 name = Regular;
 properties = (
 {
+key = postscriptFontName;
+value = AlphabitSoupRegular;
+},
+{
+key = postscriptFullName;
+value = "Alphabit Soup";
+},
+{
 key = styleNames;
 values = (
 {
@@ -7588,14 +7596,6 @@ language = ENG;
 value = Regular;
 }
 );
-},
-{
-key = postscriptFullName;
-value = "Alphabit Soup";
-},
-{
-key = postscriptFontName;
-value = AlphabitSoupRegular;
 }
 );
 }
@@ -9291,15 +9291,6 @@ type = "italic angle";
 );
 properties = (
 {
-key = familyNames;
-values = (
-{
-language = ENG;
-value = "Alphabit Soup";
-}
-);
-},
-{
 key = designers;
 values = (
 {
@@ -9309,8 +9300,17 @@ value = "Ben Dunkle";
 );
 },
 {
-key = licenseURL;
-value = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
+key = designerURL;
+value = bendunkle.com;
+},
+{
+key = familyNames;
+values = (
+{
+language = ENG;
+value = "Alphabit Soup";
+}
+);
 },
 {
 key = licenses;
@@ -9322,16 +9322,16 @@ value = "GPL 2.0";
 );
 },
 {
-key = designerURL;
-value = bendunkle.com;
-},
-{
-key = postscriptFullName;
-value = "Alphabit Soup";
+key = licenseURL;
+value = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
 },
 {
 key = postscriptFontName;
 value = AlphabitSoupRegular;
+},
+{
+key = postscriptFullName;
+value = "Alphabit Soup";
 }
 );
 settings = {
