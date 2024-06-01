@@ -1,6 +1,21 @@
 {
-.appVersion = "3133";
+.appVersion = "3260";
 .formatVersion = 3;
+DisplayStrings = (
+"Zero Handles:
+*<?@ACGHUVWXY]ceqv©®™
+
+Angled Handles:
+#$%&')+,12345789<=@ABDEFGHIKMNOQRTUXZ[/backslash ]adefimqtvwxyz{}¢£¥©®‘’“”€™ﬀﬁﬂﬄ
+
+Almost Orthogonal Lines:
+@e
+
+Bad Path Orientation:
+%
+
+"
+);
 customParameters = (
 {
 name = vendorID;
@@ -589,6 +604,7 @@ unicode = 36;
 },
 {
 glyphname = percent;
+lastChange = "2024-06-01 14:14:46 +0000";
 layers = (
 {
 layerId = m01;
@@ -596,49 +612,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(301.52,680.57,o),
-(267.84,747.98,o),
-(197.16,747.98,cs),
-(132.91,747.98,o),
-(18.26,647.19,o),
-(18.26,558.99,cs),
-(18.26,461.97,o),
-(35.03,392.96,o),
-(106.1,392.96,cs),
-(201.59,392.96,o),
-(301.53,502.92,o),
-(301.53,588.4,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(62.36,601.19,o),
-(141.1,684.34,o),
-(192.14,684.34,cs),
-(217.96,684.34,o),
-(257.65,658.52,o),
-(257.65,603.07,cs),
-(257.65,524.96,o),
-(173.86,453.77,o),
-(110.86,453.77,cs),
-(78.73,453.77,o),
-(62.36,504.18,o),
-(62.36,545.75,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(474.86,761.43,o),
-(331.62,479.97,o),
-(314.03,449.82,cs),
-(296.45,419.67,o),
-(95.4,105.54,o),
-(95.4,75.38,cs),
-(95.4,45.23,o),
-(90.37,-0.01,o),
-(148.17,-0.01,cs),
 (205.97,-0.01,o),
 (351.72,238.73,o),
 (386.92,314.11,cs),
@@ -647,30 +620,72 @@ nodes = (
 (590.46,708.65,cs),
 (590.46,726.25,o),
 (572.88,761.43,o),
-(545.22,761.43,cs)
+(545.22,761.43,cs),
+(474.86,761.43,o),
+(331.62,479.97,o),
+(314.03,449.82,cs),
+(296.45,419.67,o),
+(95.4,105.54,o),
+(95.4,75.38,cs),
+(95.4,45.23,o),
+(90.37,-0.01,o),
+(148.17,-0.01,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(502.02,359.35,o),
-(424.13,244.68,o),
-(424.13,188.47,cs),
-(424.13,91.69,o),
-(437.06,15.07,o),
-(491.98,15.07,cs),
+(201.59,392.96,o),
+(301.53,502.92,o),
+(301.53,588.4,cs),
+(301.52,680.57,o),
+(267.84,747.98,o),
+(197.16,747.98,cs),
+(132.91,747.98,o),
+(18.26,647.19,o),
+(18.26,558.99,cs),
+(18.26,461.97,o),
+(35.03,392.96,o),
+(106.1,392.96,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(78.73,453.77,o),
+(62.36,504.18,o),
+(62.36,545.75,cs),
+(62.36,601.19,o),
+(141.1,684.34,o),
+(192.14,684.34,cs),
+(217.96,684.34,o),
+(257.65,658.52,o),
+(257.65,603.07,cs),
+(257.65,524.96,o),
+(173.86,453.77,o),
+(110.86,453.77,cs)
+);
+},
+{
+closed = 1;
+nodes = (
 (594.31,15.07,o),
 (680.2,120.36,o),
 (680.2,213.34,cs),
 (680.2,306.32,o),
 (651.02,359.34,o),
-(602.55,359.34,cs)
+(602.55,359.34,cs),
+(502.02,359.35,o),
+(424.13,244.68,o),
+(424.13,188.47,cs),
+(424.13,91.69,o),
+(437.06,15.07,o),
+(491.98,15.07,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(522.64,90.63,ls),
 (492.69,90.63,o),
 (485.2,136.63,o),
 (485.2,191.43,cs),
@@ -682,7 +697,8 @@ nodes = (
 (633.91,228.68,cs),
 (633.9,160.16,o),
 (560.34,90.64,o),
-(522.65,90.64,cs)
+(522.65,90.64,cs),
+(522.64,90.63,ls)
 );
 }
 );
@@ -6738,6 +6754,14 @@ m01 = 1;
 name = Regular;
 properties = (
 {
+key = postscriptFontName;
+value = BlintzieRegular;
+},
+{
+key = postscriptFullName;
+value = Blintzie;
+},
+{
 key = styleNames;
 values = (
 {
@@ -6745,14 +6769,6 @@ language = ENG;
 value = Regular;
 }
 );
-},
-{
-key = postscriptFullName;
-value = Blintzie;
-},
-{
-key = postscriptFontName;
-value = BlintzieRegular;
 }
 );
 }
@@ -8098,22 +8114,8 @@ value = "©Ben Dunkle, All Rights Reserved";
 );
 },
 {
-key = familyNames;
-values = (
-{
-language = ENG;
-value = Blintzie;
-}
-);
-},
-{
-key = manufacturers;
-values = (
-{
-language = ENG;
-value = "Field 2 Design";
-}
-);
+key = description;
+value = "Hand-drawn in a style I like. Thick on one half, thin on the other.";
 },
 {
 key = designers;
@@ -8125,15 +8127,15 @@ value = "Ben Dunkle";
 );
 },
 {
-key = description;
-value = "Hand-drawn in a style I like. Thick on one half, thin on the other.";
+key = designerURL;
+value = "https://bendunkle.com";
 },
 {
-key = sampleTexts;
+key = familyNames;
 values = (
 {
 language = ENG;
-value = "MILK DUDS & apple fritters";
+value = Blintzie;
 }
 );
 },
@@ -8147,16 +8149,30 @@ value = "Creative Commons";
 );
 },
 {
-key = designerURL;
-value = "https://bendunkle.com";
+key = manufacturers;
+values = (
+{
+language = ENG;
+value = "Field 2 Design";
+}
+);
+},
+{
+key = postscriptFontName;
+value = BlintzieRegular;
 },
 {
 key = postscriptFullName;
 value = Blintzie;
 },
 {
-key = postscriptFontName;
-value = BlintzieRegular;
+key = sampleTexts;
+values = (
+{
+language = ENG;
+value = "MILK DUDS & apple fritters";
+}
+);
 }
 );
 settings = {

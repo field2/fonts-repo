@@ -1,8 +1,23 @@
 {
-.appVersion = "3133";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-e
+"Zero Handles
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+
+Angled Handles
+CFJMZkuw
+
+Almost Orthogonal Lines
+FYiw24
+
+Bad Outline Order
+ae
+
+Bad Path Orientation
+acez
+
+"
 );
 customParameters = (
 {
@@ -1439,6 +1454,7 @@ unicode = 90;
 },
 {
 glyphname = a;
+lastChange = "2024-06-01 14:09:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -1446,36 +1462,36 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(0,6,o),
-(118,406,o),
-(118,406,c),
-(152,523,o),
-(259,604,o),
-(381,604,c),
-(381,604,o),
-(806,604,o),
-(806,604,c),
-(684,189,l),
-(684,189,o),
-(795,189,o),
-(795,189,c),
-(775,83,o),
+(574,6,ls),
 (682,6,o),
-(574,6,cs),
-(0,6,l)
+(775,83,o),
+(795,189,c),
+(795,189,o),
+(684,189,o),
+(684,189,c),
+(806,604,l),
+(806,604,o),
+(381,604,o),
+(381,604,c),
+(259,604,o),
+(152,523,o),
+(118,406,c),
+(118,406,o),
+(0,6,o),
+(0,6,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(244,189,o),
-(494,189,o),
-(494,189,c),
-(562,421,l),
-(562,421,o),
+(312,421,l),
 (312,421,o),
-(312,421,c),
-(244,189,l)
+(562,421,o),
+(562,421,c),
+(494,189,l),
+(494,189,o),
+(244,189,o),
+(244,189,c)
 );
 }
 );
@@ -1626,7 +1642,7 @@ unicode = 100;
 },
 {
 glyphname = e;
-lastChange = "2023-03-06 21:31:56 +0000";
+lastChange = "2024-06-01 14:09:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -1635,41 +1651,41 @@ shapes = (
 closed = 1;
 nodes = (
 (690,12,l),
-(210,6,l),
-(88,6,o),
-(2,124,o),
-(34,241,cs),
-(92,451,ls),
-(126,574,o),
-(240,657,o),
-(368,657,c),
-(368,657,o),
-(776,657,o),
-(776,657,c),
-(692,382,ls),
-(670,310,o),
-(602,261,o),
-(527,261,c),
-(527,261,o),
-(227,261,o),
-(227,261,c),
-(210,189,l),
-(210,189,o),
+(747,189,l),
 (747,189,o),
-(747,189,c)
+(210,189,o),
+(210,189,c),
+(227,261,l),
+(227,261,o),
+(527,261,o),
+(527,261,c),
+(602,261,o),
+(670,310,o),
+(692,382,cs),
+(776,657,l),
+(776,657,o),
+(368,657,o),
+(368,657,c),
+(240,657,o),
+(126,574,o),
+(92,451,cs),
+(34,241,ls),
+(2,124,o),
+(88,6,o),
+(210,6,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(268,388,o),
-(521,388,o),
-(521,388,c),
-(542,474,l),
-(542,474,o),
+(290,474,l),
 (290,474,o),
-(290,474,c),
-(268,388,l)
+(542,474,o),
+(542,474,c),
+(521,388,l),
+(521,388,o),
+(268,388,o),
+(268,388,c)
 );
 }
 );
@@ -3146,6 +3162,14 @@ m01 = 1;
 name = Regular;
 properties = (
 {
+key = postscriptFontName;
+value = "Mx5-Regular";
+},
+{
+key = postscriptFullName;
+value = Mx5;
+},
+{
 key = styleNames;
 values = (
 {
@@ -3153,14 +3177,6 @@ language = ENG;
 value = Regular;
 }
 );
-},
-{
-key = postscriptFullName;
-value = Mx5;
-},
-{
-key = postscriptFontName;
-value = "Mx5-Regular";
 }
 );
 }
@@ -3196,6 +3212,19 @@ value = "2017 Ben Dunkle, All rights reserved";
 );
 },
 {
+key = designers;
+values = (
+{
+language = ENG;
+value = " Ben Dunkle";
+}
+);
+},
+{
+key = designerURL;
+value = field2.com;
+},
+{
 key = familyNames;
 values = (
 {
@@ -3214,25 +3243,12 @@ value = " ";
 );
 },
 {
-key = designers;
-values = (
-{
-language = ENG;
-value = " Ben Dunkle";
-}
-);
-},
-{
-key = designerURL;
-value = field2.com;
+key = postscriptFontName;
+value = "Mx5-Regular";
 },
 {
 key = postscriptFullName;
 value = "Mx5 Regular";
-},
-{
-key = postscriptFontName;
-value = "Mx5-Regular";
 }
 );
 settings = {

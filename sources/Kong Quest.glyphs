@@ -1,7 +1,8 @@
 {
-.appVersion = "3133";
+.appVersion = "3260";
 DisplayStrings = (
-combine
+combine,
+"Zero/space Handles:\012BDJLMPRSVWZabdefhjqr5,?';[]/quotedblleft/quotedblright/quoteleft/quoteright $&/uniF001 \012\012Angled/space Handles:\012ABCDEFGHJKLMNPQRSTUXYZbdfhikmnpqrstuwy148*#;[]()/quotedblleft/quotedblright/quoteleft $/euro +@\012\012Almost/space Orthogonal/space Lines:\012F\012\012"
 );
 copyright = "2018 Ben Dunkle. All rights reserved.";
 customParameters = (

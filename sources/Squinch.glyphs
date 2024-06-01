@@ -1,5 +1,5 @@
 {
-.appVersion = "3133";
+.appVersion = "3260";
 .formatVersion = 3;
 customParameters = (
 {
@@ -5297,12 +5297,12 @@ m01 = 1;
 name = Hand;
 properties = (
 {
-key = postscriptFullName;
-value = "Squinch Hand";
-},
-{
 key = postscriptFontName;
 value = "Squinch-Hand";
+},
+{
+key = postscriptFullName;
+value = "Squinch Hand";
 }
 );
 }
@@ -5338,15 +5338,6 @@ value = "2017 Ben Dunkle. All rigths reserved.";
 );
 },
 {
-key = manufacturers;
-values = (
-{
-language = ENG;
-value = "Field 2 Design";
-}
-);
-},
-{
 key = designers;
 values = (
 {
@@ -5360,12 +5351,21 @@ key = designerURL;
 value = "http://bendunkle";
 },
 {
-key = postscriptFullName;
-value = "Squinch Hand";
+key = manufacturers;
+values = (
+{
+language = ENG;
+value = "Field 2 Design";
+}
+);
 },
 {
 key = postscriptFontName;
 value = "Squinch-Hand";
+},
+{
+key = postscriptFullName;
+value = "Squinch Hand";
 }
 );
 settings = {

@@ -1,11 +1,26 @@
 {
-.appVersion = "3151";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
 "@",
 "\"BOO\"l",
 "#",
-"",
+"Zero Handles:
+7
+
+Angled Handles:
+!',12345678;ABDEFGHKLMNPQRSTVWXYZabcdefghijklmnopqrtuvwxyz*#//-“”@&$%
+
+Almost Orthogonal Lines:
+H
+
+Bad Path Orientation:
+-%
+
+Off-curve as start point:
+\"@
+
+",
 Spacing,
 "%",
 "$&",
@@ -4481,7 +4496,7 @@ unicode = 47;
 },
 {
 glyphname = "-";
-lastChange = "2024-02-23 00:30:05 +0000";
+lastChange = "2024-06-01 14:02:45 +0000";
 layers = (
 {
 layerId = m01;
@@ -4489,30 +4504,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(87,286,o),
-(96,334,o),
-(109,354,cs),
-(128,383,o),
-(159,383,o),
-(174,385,cs),
-(204,388,o),
-(436,339,o),
-(455,347,cs),
-(474,355,o),
-(502,367,o),
-(511,361,cs),
-(520,355,o),
-(546,335,o),
-(531,284,cs),
-(522,253,o),
 (491,223,o),
-(440,226,cs),
-(389,229,o),
-(202,266,o),
-(188,265,cs),
-(174,264,o),
+(522,253,o),
+(531,284,cs),
+(546,335,o),
+(520,355,o),
+(511,361,cs),
+(502,367,o),
+(474,355,o),
+(455,347,cs),
+(436,339,o),
+(204,388,o),
+(174,385,cs),
+(159,383,o),
+(128,383,o),
+(109,354,cs),
+(96,334,o),
+(87,286,o),
+(97,267,cs),
 (115,232,o),
-(97,267,cs)
+(174,264,o),
+(188,265,cs),
+(202,266,o),
+(389,229,o),
+(440,226,cs)
 );
 }
 );
@@ -4907,7 +4922,7 @@ unicode = 36;
 glyphname = percent;
 kernLeft = o;
 kernRight = o;
-lastChange = "2024-02-12 13:55:04 +0000";
+lastChange = "2024-06-01 14:02:45 +0000";
 layers = (
 {
 layerId = m01;
@@ -4915,58 +4930,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(237,568,o),
-(203,585,o),
-(161,586,cs),
-(101,587,o),
-(100,553,o),
-(87,538,c),
-(67,513,o),
-(32,507,o),
-(17,435,cs),
-(8,399,o),
-(26,339,o),
-(84,324,cs),
-(145,308,o),
-(177,315,o),
-(247,392,cs),
-(309,459,o),
-(284,529,o),
-(258,552,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(147,394,o),
-(112,379,o),
-(92,394,cs),
-(78,405,o),
-(80,444,o),
-(116,481,cs),
-(138,504,o),
-(166,511,o),
-(190,491,cs),
-(209,475,o),
-(198,449,o),
-(176,424,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(440,583,o),
-(384,559,o),
-(380,523,cs),
-(376,487,o),
-(391,491,o),
-(380,465,cs),
-(375,454,o),
-(70,202,o),
-(68,142,cs),
-(66,82,o),
-(94,42,o),
-(133,29,cs),
 (172,16,o),
 (252,50,o),
 (245,80,cs),
@@ -4981,12 +4944,70 @@ nodes = (
 (558,544,cs),
 (544,558,o),
 (512,583,o),
-(476,582,cs)
+(476,582,cs),
+(440,583,o),
+(384,559,o),
+(380,523,cs),
+(376,487,o),
+(391,491,o),
+(380,465,cs),
+(375,454,o),
+(70,202,o),
+(68,142,cs),
+(66,82,o),
+(94,42,o),
+(133,29,cs)
 );
 },
 {
 closed = 1;
 nodes = (
+(145,308,o),
+(177,315,o),
+(247,392,cs),
+(309,459,o),
+(284,529,o),
+(258,552,cs),
+(237,568,o),
+(203,585,o),
+(161,586,cs),
+(101,587,o),
+(100,553,o),
+(87,538,c),
+(67,513,o),
+(32,507,o),
+(17,435,cs),
+(8,399,o),
+(26,339,o),
+(84,324,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(78,405,o),
+(80,444,o),
+(116,481,cs),
+(138,504,o),
+(166,511,o),
+(190,491,cs),
+(209,475,o),
+(198,449,o),
+(176,424,cs),
+(147,394,o),
+(112,379,o),
+(92,394,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(457,16,o),
+(489,23,o),
+(559,100,cs),
+(621,167,o),
+(596,237,o),
+(569,259,cs),
 (549,276,o),
 (515,293,o),
 (473,294,cs),
@@ -4998,21 +5019,12 @@ nodes = (
 (328,143,cs),
 (320,107,o),
 (338,47,o),
-(396,32,cs),
-(457,16,o),
-(489,23,o),
-(559,100,cs),
-(621,167,o),
-(596,237,o),
-(569,259,cs)
+(396,32,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(459,102,o),
-(424,87,o),
-(404,102,cs),
 (390,113,o),
 (392,152,o),
 (428,189,cs),
@@ -5021,7 +5033,10 @@ nodes = (
 (502,199,cs),
 (521,183,o),
 (510,157,o),
-(487,133,cs)
+(487,133,cs),
+(459,102,o),
+(424,87,o),
+(404,102,cs)
 );
 }
 );
@@ -5050,6 +5065,14 @@ m01 = 1;
 name = Regular;
 properties = (
 {
+key = postscriptFontName;
+value = GhastlyRegular;
+},
+{
+key = postscriptFullName;
+value = Ghastly;
+},
+{
 key = styleNames;
 values = (
 {
@@ -5057,14 +5080,6 @@ language = ENG;
 value = Regular;
 }
 );
-},
-{
-key = postscriptFullName;
-value = Ghastly;
-},
-{
-key = postscriptFontName;
-value = GhastlyRegular;
 }
 );
 }
@@ -6575,11 +6590,11 @@ type = "italic angle";
 );
 properties = (
 {
-key = familyNames;
+key = copyrights;
 values = (
 {
-language = ENG;
-value = Ghastly;
+language = dflt;
+value = "Copyright 2021, Ben Dunkle. All righs reserved.";
 }
 );
 },
@@ -6597,21 +6612,21 @@ key = designerURL;
 value = bendunkle.com;
 },
 {
-key = postscriptFullName;
+key = familyNames;
+values = (
+{
+language = ENG;
 value = Ghastly;
+}
+);
 },
 {
 key = postscriptFontName;
 value = GhastlyRegular;
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2021, Ben Dunkle. All righs reserved.";
-}
-);
+key = postscriptFullName;
+value = Ghastly;
 }
 );
 settings = {

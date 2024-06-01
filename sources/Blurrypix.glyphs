@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3260";
 .formatVersion = 3;
 customParameters = (
 {
@@ -6643,6 +6643,14 @@ m01 = 1;
 name = Regular;
 properties = (
 {
+key = postscriptFontName;
+value = BlurrypixRegular;
+},
+{
+key = postscriptFullName;
+value = Blurrypix;
+},
+{
 key = styleNames;
 values = (
 {
@@ -6650,14 +6658,6 @@ language = ENG;
 value = Regular;
 }
 );
-},
-{
-key = postscriptFullName;
-value = Blurrypix;
-},
-{
-key = postscriptFontName;
-value = BlurrypixRegular;
 }
 );
 }
@@ -7284,11 +7284,11 @@ type = "italic angle";
 );
 properties = (
 {
-key = familyNames;
+key = copyrights;
 values = (
 {
-language = ENG;
-value = Blurrypix;
+language = dflt;
+value = "Copyriight 2018, Ben Dunkle. Al rights reserved.";
 }
 );
 },
@@ -7302,6 +7302,19 @@ value = "Ben Dunkle";
 );
 },
 {
+key = designerURL;
+value = bendunkle.com;
+},
+{
+key = familyNames;
+values = (
+{
+language = ENG;
+value = Blurrypix;
+}
+);
+},
+{
 key = licenses;
 values = (
 {
@@ -7311,25 +7324,12 @@ value = "Personal and commercial use";
 );
 },
 {
-key = designerURL;
-value = bendunkle.com;
-},
-{
-key = postscriptFullName;
-value = Blurrypix;
-},
-{
 key = postscriptFontName;
 value = BlurrypixRegular;
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyriight 2018, Ben Dunkle. Al rights reserved.";
-}
-);
+key = postscriptFullName;
+value = Blurrypix;
 }
 );
 settings = {

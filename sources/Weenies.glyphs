@@ -1,9 +1,20 @@
 {
-.appVersion = "3133";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
 G,
-g
+g,
+"Zero Handles
+0134567ABCDEFGHIJKLMNOPQRSTUWXYZacdehijkmnopqrstuvwyz
+
+Angled Handles
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+Bad Path Orientation
+124568ABDEFHIJKLMNOPQRSTUVWXYZacefghijmnopqrtuwxy
+
+",
+G
 );
 customParameters = (
 {
@@ -11656,7 +11667,7 @@ unicode = 70;
 {
 glyphname = G;
 kernLeft = G;
-lastChange = "2023-03-06 21:06:26 +0000";
+lastChange = "2024-06-01 14:18:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -11703,9 +11714,7 @@ nodes = (
 (894,442,o),
 (892,458,o),
 (895,463,cs),
-(905,480,o),
-(913,496,o),
-(923,512,cs),
+(923,512,ls),
 (931,524,o),
 (974,589,o),
 (980,602,cs),
@@ -11785,9 +11794,6 @@ nodes = (
 closed = 1;
 nodes = (
 (442,104,o),
-(459,125,o),
-(478,142,c),
-(480,143,o),
 (482,143,o),
 (485,144,cs),
 (501,152,o),
@@ -11817,14 +11823,8 @@ nodes = (
 (88,264,o),
 (83,270,o),
 (84,276,cs),
-(86,288,o),
-(69,294,o),
-(63,282,c),
-(63,280,o),
-(64,282,o),
-(62,281,c),
-(53,269,o),
-(65,251,o),
+(89,303,o),
+(37,283,o),
 (75,240,cs),
 (101,211,o),
 (144,198,o),
@@ -11934,10 +11934,8 @@ nodes = (
 (566,378,cs),
 (571,370,o),
 (582,366,o),
-(592,365,cs),
-(610,365,o),
-(628,367,o),
-(646,367,c),
+(592,365,c),
+(646,367,l),
 (646,366,o),
 (647,366,o),
 (647,366,c),
@@ -12079,9 +12077,7 @@ nodes = (
 (875,215,o),
 (896,166,o),
 (899,156,cs),
-(904,142,o),
-(908,128,o),
-(912,114,cs),
+(912,114,ls),
 (914,105,o),
 (921,64,o),
 (926,56,c),
@@ -46526,6 +46522,14 @@ m01 = 1;
 name = Regular;
 properties = (
 {
+key = postscriptFontName;
+value = "Weenies-Regular";
+},
+{
+key = postscriptFullName;
+value = "Weenies Regular";
+},
+{
 key = styleNames;
 values = (
 {
@@ -46533,14 +46537,6 @@ language = ENG;
 value = Regular;
 }
 );
-},
-{
-key = postscriptFullName;
-value = "Weenies Regular";
-},
-{
-key = postscriptFontName;
-value = "Weenies-Regular";
 }
 );
 }
@@ -47861,21 +47857,13 @@ type = "italic angle";
 );
 properties = (
 {
-key = familyNames;
+key = copyrights;
 values = (
 {
-language = ENG;
-value = Weenies;
+language = dflt;
+value = "2022 Ben Dunkle. All rights reserved.";
 }
 );
-},
-{
-key = postscriptFullName;
-value = "Weenies Regular";
-},
-{
-key = postscriptFontName;
-value = "Weenies-Regular";
 },
 {
 key = designers;
@@ -47891,13 +47879,21 @@ key = designerURL;
 value = field2.com;
 },
 {
-key = copyrights;
+key = familyNames;
 values = (
 {
-language = dflt;
-value = "2022 Ben Dunkle. All rights reserved.";
+language = ENG;
+value = Weenies;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "Weenies-Regular";
+},
+{
+key = postscriptFullName;
+value = "Weenies Regular";
 },
 {
 key = versionString;
