@@ -129,6 +129,10 @@ z,
 nonbreakingspace,
 softhyphen
 );
+},
+{
+name = "Disable Subroutines";
+value = 1;
 }
 );
 date = "2022-10-13 18:03:22 +0000";
