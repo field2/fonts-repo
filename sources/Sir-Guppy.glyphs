@@ -1,21 +1,6 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
-DisplayStrings = (
-"Zero Handles
-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-
-Angled Handles
-0123456789ABCDEFGHIJKLMNOPQRSTUWXYZabcdefghijklmnopqrstuwxyz
-
-Almost Orthogonal Lines
-1489CEJKMOPQRVXcejkmopqrvx
-
-Bad Path Orientation
-068BDGIORTbdgiort
-
-"
-);
 customParameters = (
 {
 name = vendorID;
@@ -6378,10 +6363,6 @@ language = ENG;
 value = " ";
 }
 );
-},
-{
-key = description;
-value = " ";
 },
 {
 key = designers;
