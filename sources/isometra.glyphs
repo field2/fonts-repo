@@ -2,30 +2,7 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"AG AQ A
-BV BY B
-DV DW DX DY D
-FC FJ FS
-JA
-KC KG KJ KO KQ
-LW L
-O
-PV PX PY
-QT QV QW QY Q
-RW RY R
-TJ
-VC VG VJ VQ VS
-WG WJ WQ WS W
-XC XG XJ XQ
-YC YG YJ YQ Y Y
-C J O",
-"+",
-"+÷",
-"÷",
-"•",
-".…",
-".",
-""
+"Angel Adept Blind Bodice Clique Coast Dunce Docile Enact Eosin Furlong Focal Gnome Gondola Human Hoist Inlet Iodine Justin Jocose Knoll Koala Linden Loads Milliner Modal Number Nodule Onset ZOOOddball Pneumo Poncho Quanta Qophs Rhone Roman Snout Sodium Tundra Tocsin Uncle Udder Vulcan Vocal Whale Woman Xmas Xenon Yunnan Young Zloty Zodiac. Angel angel adept for the nuance loads of the arena cocoa and quaalude. Blind blind bodice for the submit oboe of the club snob and abbot. Clique clique coast for the pouch loco of the franc assoc and accede. Dunce dunce docile for the loudness mastodon of the loud statehood and huddle. Enact enact eosin for the quench coed of the pique canoe and bleep. Furlong furlong focal for the genuflect profound of the motif aloof and offers. Gnome gnome gondola for the impugn logos of the unplug analog and smuggle. Human human hoist for the buddhist alcohol of the riyadh caliph and bathhouse. Inlet inlet iodine for the quince champion of the ennui scampi and shiite. Justin justin jocose for the djibouti sojourn of the oranj raj and hajjis. Knoll knoll koala for the banknote lookout of the dybbuk outlook and trekked. Linden linden loads for the ulna monolog of the consul menthol and shallot. Milliner milliner modal for the alumna solomon of the album custom and summon. Number number nodule for the unmade economic of the shotgun bison and tunnel. Onset onset oddball for the abandon podium of the antiquo tempo and moonlit. Pneumo pneumo poncho for the dauphin opossum of the holdup bishop and supplies. Quanta quanta qophs for the inquest sheqel of the cinq coq and suqqu. Rhone rhone roman for the burnt porous of the lemur clamor and carrot. Snout snout sodium for the ensnare bosom of the genus pathos and missing. Tundra tundra tocsin for the nutmeg isotope of the peasant ingot and ottoman. Uncle uncle udder for the dunes cloud of the hindu thou and continuum. Vulcan vulcan vocal for the alluvial ovoid vision of the yugoslav chekhov and revved. Whale whale woman for the meanwhile blowout of the forepaw meadow and glowworm. Xmas xmas xenon for the bauxite doxology of the tableaux equinox and exxon. Yunnan yunnan young for the dynamo coyote of the obloquy employ and sayyid. Zloty zloty zodiac for the gizmo ozone of the franz laissez and buzzing. ~!@#$%^&*()_+{}|:”<>?1234567890-=[]/backslash ;’,."
 );
 customParameters = (
 {
@@ -1738,7 +1715,7 @@ unicode = 110;
 },
 {
 glyphname = o;
-lastChange = "2024-05-24 18:09:30 +0000";
+lastChange = "2024-06-30 13:04:04 +0000";
 layers = (
 {
 layerId = m01;
@@ -1746,39 +1723,39 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(406,-10,o),
-(555,129,o),
-(555,300,c),
-(555,471,o),
-(406,610,o),
-(223,610,c),
-(39,610,o),
-(-110,475,o),
-(-110,300,c),
-(-110,125,o),
-(39,-10,o),
-(223,-10,c)
+(497,-10,o),
+(646,129,o),
+(646,300,c),
+(646,471,o),
+(497,610,o),
+(314,610,c),
+(130,610,o),
+(-19,475,o),
+(-19,300,c),
+(-19,125,o),
+(130,-10,o),
+(314,-10,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(152,177,o),
-(97,229,o),
-(97,296,c),
-(97,364,o),
-(152,415,o),
-(223,415,c),
-(291,415,o),
-(349,360,o),
-(349,296,c),
-(349,231,o),
-(291,177,o),
-(223,177,c)
+(243,177,o),
+(188,229,o),
+(188,296,c),
+(188,364,o),
+(243,415,o),
+(314,415,c),
+(382,415,o),
+(440,360,o),
+(440,296,c),
+(440,231,o),
+(382,177,o),
+(314,177,c)
 );
 }
 );
-width = 565;
+width = 656;
 }
 );
 unicode = 111;
@@ -2003,7 +1980,7 @@ unicode = 116;
 },
 {
 glyphname = u;
-lastChange = "2024-04-10 15:28:12 +0000";
+lastChange = "2024-06-30 13:04:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -2011,33 +1988,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(790,2,l),
-(704,151,l),
-(703,452,l),
-(789,602,l),
-(473,602,l),
-(473,230,l),
-(444,212,o),
-(413,202,o),
-(382,202,c),
-(315,202,o),
-(263,242,o),
-(263,314,c),
-(263,602,l),
-(-30,600,l),
-(55,450,l),
-(55,274,l),
-(55,112,o),
-(149,0,o),
-(306,0,c),
-(365,0,o),
-(422,17,o),
-(473,44,c),
-(473,2,l)
+(750,2,l),
+(664,151,l),
+(663,452,l),
+(749,602,l),
+(433,602,l),
+(433,230,l),
+(404,212,o),
+(373,202,o),
+(342,202,c),
+(275,202,o),
+(223,242,o),
+(223,314,c),
+(223,602,l),
+(-70,600,l),
+(15,450,l),
+(15,274,l),
+(15,112,o),
+(109,0,o),
+(266,0,c),
+(325,0,o),
+(382,17,o),
+(433,44,c),
+(433,2,l)
 );
 }
 );
-width = 800;
+width = 760;
 }
 );
 unicode = 117;
@@ -4942,7 +4919,7 @@ d = {
 d = 5;
 e = -20;
 i = 20;
-o = -20;
+o = -16;
 r = 20;
 };
 e = {
@@ -5039,7 +5016,7 @@ c = 20;
 d = 20;
 h = -40;
 k = -30;
-l = -40;
+l = -36;
 m = -30;
 n = -20;
 p = -40;
