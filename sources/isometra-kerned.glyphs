@@ -2,42 +2,24 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"
-",
-LAT,
-TAO,
-"the quick brown fox jumps over the lazy dog
-THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
-L,
-S,
-U,
+"bv bw bx
+cf c/f_f_l  cﬂ
+fa fd fe ff fg fj fo fq fs ft f/f_f_l  fﬂ
+hu hv hw
+ka kc kd ke ko kq kt
+mu mv mw
+nu nv nw
+ov ow ox
+pv pw px
+rf rj r/f_f_l  rﬂ
+tf tj t/f_f_l  tﬂ
+va vc vd ve vf vg vj vo vq vs vt v/f_f_l  vﬂ
+wa wc wd we wf wg wj wo wq ws wt w/f_f_l  wﬂ
+xa xc xd xe xo xq xt
+zt",
 VAVAWA,
-F,
-"Aa Ac Ad Ae Ao Aq At Au Av Aw Ay
-Bt
-Ct
-Dj
-Ea Ec Ed Ee Eo Eq Et Eu Ev Ew Ey
-Fa Fc Fd Fe Ff Fg Fj Fo Fq Fs Ft F/f_f_l  Fﬂ
-Ga Gc Gd Ge Go Gq Gt Gu Gv Gw Gy
-Jj Js
-Ka Kc Kd Ke Ko Kq Kt Ku Kv Kw Ky
-Lf Lt Lv Lw L/f_f_l  Lﬂ
-Oj
-Pj
-Qa Qc Qd Qe Qo Qq Qu Qv Qw Qy
-Ra Rc Rd Re Ro Rq Rt Ru Rv Rw Ry
-St
-Ta Tc Td Te Tf Tg Tj To Tq Ts Tt T/f_f_l  Tﬂ
-Uj Us
-Va Vc Vd Ve Vf Vg Vj Vm Vn Vo Vp Vq Vr Vs Vt Vu Vv Vw Vx Vy Vz V/f_f_l  Vﬂ
-Wa Wc Wd We Wf Wg Wj Wm Wn Wo Wp Wq Wr Ws Wt Wu Wv Ww Wx Wy Wz W/f_f_l  Wﬂ
-Xa Xc Xd Xe Xo Xq Xt Xu Xv Xw Xy
-Ya Yc Yd Ye Yf Yg Yj Ym Yn Yo Yp Yq Yr Ys Yt Yu Yv Yw Yx Yy Yz Y/f_f_l  Yﬂ
-Za Zc Zd Ze Zo Zq Zt Zu Zv Zw Zy",
-H,
-"Hello this font is Isometra.
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/f_f_l ﬂ0123456789 .,:;…!?•*#///backslash -–—_(){}[]‚„“”‘’«»‹›\"'@&©®™°|¢$€¥+÷=><~^%"
+abdvavojxvwaco,
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/f_f_l ﬂ0123456789 .,:;…!?•*#///backslash -–—_(){}[]‚„“”‘’«»‹›\"'@&©®™°|¢$€¥+÷=><~^%"
 );
 customParameters = (
 {
@@ -100,7 +82,7 @@ glyphs = (
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-lastChange = "2024-06-30 14:22:53 +0000";
+lastChange = "2024-07-01 13:45:23 +0000";
 layers = (
 {
 layerId = m01;
@@ -1180,7 +1162,9 @@ unicode = 90;
 },
 {
 glyphname = a;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernLeft = o;
+kernRight = x;
+lastChange = "2024-07-01 13:51:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -1227,7 +1211,8 @@ unicode = 97;
 },
 {
 glyphname = b;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernRight = o;
+lastChange = "2024-07-01 13:49:23 +0000";
 layers = (
 {
 layerId = m01;
@@ -1277,7 +1262,8 @@ unicode = 98;
 },
 {
 glyphname = c;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernLeft = o;
+lastChange = "2024-07-01 13:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -1319,7 +1305,9 @@ unicode = 99;
 },
 {
 glyphname = d;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernLeft = o;
+kernRight = x;
+lastChange = "2024-07-01 13:52:44 +0000";
 layers = (
 {
 layerId = m01;
@@ -1629,7 +1617,9 @@ unicode = 105;
 },
 {
 glyphname = j;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernLeft = o;
+kernRight = x;
+lastChange = "2024-07-01 13:52:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -1676,7 +1666,8 @@ unicode = 106;
 },
 {
 glyphname = k;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernRight = o;
+lastChange = "2024-07-01 13:52:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -1840,7 +1831,9 @@ unicode = 110;
 },
 {
 glyphname = o;
-lastChange = "2024-06-30 14:26:20 +0000";
+kernLeft = o;
+kernRight = o;
+lastChange = "2024-07-01 13:48:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -2162,7 +2155,7 @@ unicode = 117;
 glyphname = v;
 kernLeft = v;
 kernRight = v;
-lastChange = "2024-06-30 14:22:53 +0000";
+lastChange = "2024-07-01 13:56:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -2172,12 +2165,12 @@ closed = 1;
 nodes = (
 (538,600,l),
 (567,551,l),
-(457,353,l),
+(457,343,l),
 (347,551,l),
 (376,600,l),
 (30,600,l),
 (171,485,l),
-(457,-10,l),
+(457,-20,l),
 (743,485,l),
 (884,600,l)
 );
@@ -2194,7 +2187,7 @@ unicode = 118;
 glyphname = w;
 kernLeft = v;
 kernRight = v;
-lastChange = "2024-06-30 14:22:53 +0000";
+lastChange = "2024-07-01 13:56:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -2210,11 +2203,11 @@ nodes = (
 (369,550,l),
 (398,600,l),
 (30,600,l),
-(173,481,l),
-(455,-8,l),
-(600,240,l),
-(745,-8,l),
-(1027,481,l),
+(179,481,l),
+(455,-20,l),
+(600,228,l),
+(745,-20,l),
+(1022,481,l),
 (1170,600,l)
 );
 }
@@ -2228,7 +2221,9 @@ unicode = 119;
 },
 {
 glyphname = x;
-lastChange = "2024-06-30 14:22:53 +0000";
+kernLeft = x;
+kernRight = x;
+lastChange = "2024-07-01 13:50:50 +0000";
 layers = (
 {
 layerId = m01;
@@ -4985,20 +4980,29 @@ kerningLTR = {
 m01 = {
 "@MMK_L_A" = {
 "@MMK_R_A" = -200;
-"@MMK_R_V" = -200;
+"@MMK_R_V" = -260;
 O = -200;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -200;
+"@MMK_R_A" = -260;
 };
 "@MMK_L_f" = {
 c = -50;
 };
+"@MMK_L_o" = {
+"@MMK_R_v" = -50;
+};
 "@MMK_L_v" = {
-space = -50;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_x" = {
+"@MMK_R_v" = -10;
 };
 m = {
 "@MMK_R_v" = -50;
+};
+space = {
+"@MMK_R_v" = -30;
 };
 };
 };
