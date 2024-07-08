@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
 s,
@@ -39,6 +39,7 @@ pos = -200;
 }
 );
 name = thin;
+visible = 1;
 },
 {
 axesValues = (
@@ -62,6 +63,7 @@ pos = 500;
 }
 );
 name = fat;
+visible = 1;
 }
 );
 glyphs = (
